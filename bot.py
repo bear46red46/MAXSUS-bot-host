@@ -12,7 +12,7 @@ from telegram import Update, ForceReply
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Konfiguratsiya
-TOKEN = os.environ.get('BOT_TOKEN', '8252771459:AAFdEmmqh_4DHwvFEC0lrNMhzT9F_sAIZ9g')
+TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
 ALLOWED_USERS = os.environ.get('ALLOWED_USERS', '').split(',')  # Faqat ruxsat etilgan userlar
 
 # Logging sozlamalari
